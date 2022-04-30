@@ -1,2 +1,2 @@
-# travelpath.github.io
-Data structure project
+# CBFriendsCost
+CB Project

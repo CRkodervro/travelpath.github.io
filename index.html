@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DSA MINI PROJECT</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <script src="https://kit.fontawesome.com/5548f5ed00.js" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://unpkg.com/vis-network/standalone/umd/vis-network.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <nav class="navbar navbar-light " style="font-size: 25px; font-family: sans-serif; background-color: whitesmoke;">
+
+        <img src="https://media.glassdoor.com/sqll/590407/ait-pune-squarelogo-1475161308823.png" width="45" height="45"
+            class="d-inline-block align-top" alt="">
+        3260 & 3245 - DSA MINI PROJECT(Min Time Travel Path)     
+
+    </nav>
+    <div id="container">
+        <div id="mynetwork">  
+        </div>
+        <div id="container2">
+            <span id="temptext2" style="width: 100%; text-align: center; font-size: x-large">
+            </span>
+            <span id="temptext" style="width: 100%; text-align: center; font-size: x-large">
+                <br>Instructions:<br>
+                Orange link represents bus travel time : <i class="fa fa-bus" aria-hidden="true" style="color: #FFA500"></i><br>
+                Green link represents flight travel time : <i class="fa fa-plane" aria-hidden="true" style="color: green"></i><br>
+                Click on "Get Path" to get min time path!!
+                <br><br>
+                Note: - You can use the air path only once!!!
+            </span>
+            <div id="mynetwork2" style="display: none"></div>
+        </div>
+    </div>
+
+    <div>
+        <br>
+        <button type="button" class="btn btn-danger" id="generate-graph">New Problem</button>
+        <br>
+        <button type="button" class="btn btn-success" id="solve">Get Path</button>
+    </div>
+</body>
+
+</html>
