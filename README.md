@@ -22,20 +22,14 @@ Live Demo of project - (https://crkodervro.github.io/travelpath.github.io/)
 ### Initial Preview
 
 <p align="center">
-  <img src="app_preview/initial_preview.PNG" width="700" alt="accessibility text">
+  <img src="Generate new problem.png" width="700" alt="New Problem">
 </p>
 
 
-### Generate Puzzle
+### Later Preview
 
 <p align="center">
-  <img src="app_preview/generate_puzzle.PNG" width="700" alt="accessibility text">
+  <img src="Solve problem.png" width="700" alt="solve the problem">
 </p>
 
-
-### Solve Puzzle
-
-<p align="center">
-  <img src="app_preview/solve_puzzle.PNG" width="700" alt="accessibility text">
-</p>
 
