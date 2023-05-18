@@ -5,9 +5,9 @@
 Made Shortest Path calculation project using Dijkstra's Algorithm
 
 ## Tech Stack/Framework used:
-2. HTML
-3. JS
-4. CSS
+1. HTML
+2. JS
+3. CSS
 
 ## General Info
 
